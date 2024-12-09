@@ -1,0 +1,19 @@
+[project]
+name = "Q-Learning_Graph-Visualization"
+version = "0.1.0"
+description = "A Visualization regarding Q-Learning with a simple graph"
+authors = [
+    {name = "NTGNguyen", email = "23521049@gm.uit.edu.vn"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
