@@ -1,9 +1,8 @@
 """A Node class to config the node in Graph"""
-from ttkbootstrap import *
 from tkinter import *
 from typing import TYPE_CHECKING
 
-
+from ttkbootstrap import *
 
 if TYPE_CHECKING:
     from .frame_graph import FrameGraph
@@ -12,7 +11,7 @@ if TYPE_CHECKING:
 class Node(Canvas):
     """The Node class inherits from Canvas"""
 
-    def __init__(self, parent: 'FrameGraph', number: int,x:float ,y:float):
+    def __init__(self, parent: 'FrameGraph', number: int, x: float, y: float):
         """The initialization of Node Class
 
         Args:
@@ -26,20 +25,15 @@ class Node(Canvas):
         self.y = y
         self.number = number
         self.configure(bg="white")
-        self.create_oval(0,0,60,60, fill="blue", outline="#F8F9FA")
+        self.create_oval(0, 0, 60, 60, fill="blue", outline="#F8F9FA")
         self.create_text(30, 30, text=str(number), font=("Arial", 20, "bold"))
         self.pack()
-        self.place(x = x - 30,y = y - 30)
-        
-        
-        
+        self.place(x=x - 30, y=y - 30)
 
-    def get_center(self)-> tuple[float,float]:
+    def get_center(self) -> tuple[float, float]:
         """Get center of Node
 
         Returns:
             tuple[float,float]: x_center_pos and y_center_pos
         """
-        return self.x,self.y
-    
-    
+        return self.x, self.y

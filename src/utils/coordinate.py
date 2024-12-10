@@ -1,8 +1,9 @@
 """Some useful function regarding coordinate"""
-import random as rd
 import math
+import random as rd
 
-def coordinate_random(max_width_frame:int,max_height_frame:int) -> tuple[float,float]:
+
+def coordinate_random(max_width_frame: int, max_height_frame: int) -> tuple[float, float]:
     """The random function to random coordinate of point(x,y)
 
     Args:
@@ -12,11 +13,12 @@ def coordinate_random(max_width_frame:int,max_height_frame:int) -> tuple[float,f
     Returns:
         tuple(float,float): The (x,y) coordinate
     """
-    x:float = rd.uniform(0, max_width_frame)
-    y:float = rd.uniform(0, max_height_frame)
-    return x,y
+    x: float = rd.uniform(0, max_width_frame)
+    y: float = rd.uniform(0, max_height_frame)
+    return x, y
 
-def distance(x1:float, y1:float, x2:float, y2:float) -> float:
+
+def distance(x1: float, y1: float, x2: float, y2: float) -> float:
     """Caculate distance between two nodes
 
     Args:
@@ -29,6 +31,7 @@ def distance(x1:float, y1:float, x2:float, y2:float) -> float:
         float: distance of two nodes
     """
     return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
 
 def coordinate_list_random(k: int, max_width: float, max_height: float, min_distance: float = 100) -> list[list[float]]:
     """Random the coordinate of k nodes
@@ -50,6 +53,3 @@ def coordinate_list_random(k: int, max_width: float, max_height: float, min_dist
                 coordinate_list.append([x, y])
                 break
     return coordinate_list
-
-
-
