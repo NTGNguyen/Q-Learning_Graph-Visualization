@@ -2,10 +2,8 @@
 from tkinter import *
 from typing import TYPE_CHECKING
 
-import ttkbootstrap as tb
 from ttkbootstrap import *
 
-from ..utils import coordinate_random
 from .edge import Edge
 from .node import Node
 
