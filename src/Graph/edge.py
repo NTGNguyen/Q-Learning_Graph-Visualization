@@ -6,7 +6,6 @@ from ttkbootstrap import *
 
 if TYPE_CHECKING:
     from frame_graph import FrameGraph
-    from node import Node
 
 
 class Edge(Canvas):
