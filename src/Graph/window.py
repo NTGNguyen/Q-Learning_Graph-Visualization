@@ -1,7 +1,9 @@
 """The Window shows Application"""
-from .frame_graph import FrameGraph
-from ttkbootstrap import *
 from tkinter import *
+
+from ttkbootstrap import *
+
+from .frame_graph import FrameGraph
 
 
 class CWindow(Window):
@@ -14,4 +16,3 @@ class CWindow(Window):
         self.title("Q-Learning Visualization")
         self.frame: FrameGraph = FrameGraph(self)
         self.frame.place(relwidth=0.7, relheight=1.0)
-
