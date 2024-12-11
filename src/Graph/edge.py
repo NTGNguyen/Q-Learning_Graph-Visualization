@@ -37,5 +37,8 @@ class Edge(Canvas):
         self.place(x=min(x1, x2), y=min(y1, y2))
         line_x1, line_y1 = x1 - min(x1, x2), y1 - min(y1, y2)
         line_x2, line_y2 = x2 - min(x1, x2), y2 - min(y1, y2)
-        self.create_line(line_x1, line_y1, line_x2,
-                         line_y2, fill="black", width=2)
+        self.oval_id = self.create_line(line_x1, line_y1, line_x2,
+                                        line_y2, fill="black", width=2)
+
+    def change_color(self, color: str):
+        self.itemconfig(self.oval_id, fill=color)

@@ -25,7 +25,8 @@ class Node(Canvas):
         self.y = y
         self.number = number
         self.configure(bg="white")
-        self.create_oval(0, 0, 60, 60, fill="blue", outline="#F8F9FA")
+        self.oval_id: int = self.create_oval(
+            0, 0, 60, 60, fill="blue", outline="#F8F9FA")
         self.create_text(30, 30, text=str(number), font=("Arial", 20, "bold"))
         self.pack()
         self.place(x=x - 30, y=y - 30)
@@ -37,3 +38,11 @@ class Node(Canvas):
             tuple[float,float]: x_center_pos and y_center_pos
         """
         return self.x, self.y
+
+    def change_color(self, color: str):
+        """Change the color of the node
+
+        Args:
+            color (str): The new color for the node
+        """
+        self.itemconfig(self.oval_id, fill=color)
