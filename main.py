@@ -1,5 +1,7 @@
-from src import CWindow, coordinate_list_random, GraphNetworkX,GraphNetworkXForQLearning
 import pandas as pd
+
+from src import (CWindow, GraphNetworkX, GraphNetworkXForQLearning,
+                 coordinate_list_random)
 
 
 def main():
