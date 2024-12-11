@@ -1,11 +1,10 @@
 """The Window shows Application"""
-from ttkbootstrap import *
 from tkinter import *
 
+from ttkbootstrap import *
 
+from ..utils import HEIGHT_WINDOW, WIDTH_WINDOW
 from .frame_graph import FrameGraph
-
-from ..utils import WIDTH_WINDOW, HEIGHT_WINDOW
 
 
 class CWindow(Window):
