@@ -1,8 +1,8 @@
 """Frame contains Graph to visualize the algorithm"""
-from tkinter import *
+from ttkbootstrap import *
 from typing import TYPE_CHECKING
 
-from ttkbootstrap import *
+from tkinter import *
 
 from .edge import Edge
 from .node import Node

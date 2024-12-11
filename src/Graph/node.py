@@ -1,8 +1,9 @@
 """A Node class to config the node in Graph"""
-from tkinter import *
 from typing import TYPE_CHECKING
 
 from ttkbootstrap import *
+from tkinter import *
+
 
 if TYPE_CHECKING:
     from .frame_graph import FrameGraph
