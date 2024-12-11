@@ -1,6 +1,7 @@
 """Visualize Q-learning process"""
 import numpy as np
 from numpy import matrix, zeros
+
 from ..Graph import CWindow
 
 
