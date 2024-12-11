@@ -1,9 +1,9 @@
 """Frame contains Graph to visualize the algorithm"""
 from typing import TYPE_CHECKING
-from ..utils import CHECK_IMPORT_LATER
 
 from ttkbootstrap import *
 
+from ..utils import CHECK_IMPORT_LATER
 from .edge import Edge
 from .node import Node
 
