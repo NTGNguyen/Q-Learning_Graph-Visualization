@@ -1,6 +1,6 @@
 """Frame contains Graph to visualize the algorithm"""
-from tkinter import *
 from typing import TYPE_CHECKING
+from ..utils import CHECK_IMPORT_LATER
 
 from ttkbootstrap import *
 
@@ -9,6 +9,9 @@ from .node import Node
 
 if TYPE_CHECKING:
     from .window import Window
+
+if CHECK_IMPORT_LATER:
+    from tkinter import *
 
 
 class FrameGraph(Frame):
