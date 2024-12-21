@@ -1,7 +1,6 @@
 """Some Frames"""
+from tkinter import BOTH, X, ttk
 from typing import TYPE_CHECKING
-from tkinter import ttk
-from tkinter import BOTH, X
 
 if TYPE_CHECKING:
     from .window import MainWindow
