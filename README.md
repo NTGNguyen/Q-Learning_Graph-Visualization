@@ -37,7 +37,7 @@ A repo using to visualize <strong>Q-Learning</strong> with tkinter
 ![GitHub language count](https://img.shields.io/github/languages/count/NTGNguyen/Q-Learning_Graph-Visualization?style=for-the-badge)
 <br>
 <br>
-[![wakatime](https://wakatime.com/badge/user/018dc1fb-78ec-4b43-aa3b-c4526233484c/project/8f43f065-33e2-43a0-b8a3-9273bb9ab9b2.svg?style=for-the-badge)](https://wakatime.com/badge/user/018dc1fb-78ec-4b43-aa3b-c4526233484c/project/8f43f065-33e2-43a0-b8a3-9273bb9ab9b2?style=for-the-badge)
+[![wakatime](https://wakatime.com/badge/user/018dc1fb-78ec-4b43-aa3b-c4526233484c/project/2fd970f0-8b7f-4e9f-ba95-7766dfdcb7bb.svg?style=for-the-badge)](https://wakatime.com/badge/user/018dc1fb-78ec-4b43-aa3b-c4526233484c/project/2fd970f0-8b7f-4e9f-ba95-7766dfdcb7bb?style=for-the-badge)
 ![GitHub branch check runs](https://img.shields.io/github/check-runs/NTGNguyen/Q-Learning_Graph-Visualization/main?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr-closed/NTGNguyen/Q-Learning_Graph-Visualization?style=for-the-badge)
 ![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/NTGNguyen/Q-Learning_Graph-Visualization?style=for-the-badge)
