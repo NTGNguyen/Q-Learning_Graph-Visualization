@@ -1,9 +1,10 @@
+import random
 import tkinter as tk
 from tkinter import ttk
+
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import networkx as nx
-import random
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Global variables to store the graph, layout, and plot elements
 G = None

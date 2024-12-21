@@ -1,5 +1,6 @@
 """The Graph"""
 import random
+
 import networkx as nx
 from networkx import Graph
 

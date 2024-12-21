@@ -1,11 +1,13 @@
 """Some buttons"""
-from tkinter import ttk
+from tkinter import BOTH, LEFT, ttk
 from typing import TYPE_CHECKING
-from tkinter import LEFT, BOTH
+
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from .graph import GraphRandomGenerate
 import networkx as nx
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+from .graph import GraphRandomGenerate
+
 if TYPE_CHECKING:
     from .frame import ButtonFrame, GraphFrame
 

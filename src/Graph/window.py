@@ -1,9 +1,10 @@
 """The main window"""
 
 import tkinter as tk
+
 from ..utils import HEIGHT_WINDOW, WIDTH_WINDOW
-from .frame import MainFrame, GraphFrame, ButtonFrame
 from .button import DrawRandomButton
+from .frame import ButtonFrame, GraphFrame, MainFrame
 
 
 class MainWindow(tk.Tk):
