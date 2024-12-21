@@ -2,9 +2,9 @@
 import random
 from typing import Any
 
+import matplotlib.pyplot as plt
 import networkx as nx
 from networkx import Graph
-import matplotlib.pyplot as plt
 
 
 class GraphRandomGenerate:
