@@ -3,8 +3,9 @@
 import tkinter as tk
 
 from ..utils import HEIGHT_WINDOW, WIDTH_WINDOW
-from .button import DrawRandomButton
+from .button import DrawRandomButton, LearnButton
 from .frame import ButtonFrame, GraphFrame, MainFrame
+from .label import EpochLabel
 
 
 class MainWindow(tk.Tk):
@@ -22,4 +23,7 @@ class MainWindow(tk.Tk):
         self.graph_frame: GraphFrame = GraphFrame(self.main_frame)
         self.button_frame: ButtonFrame = ButtonFrame(self.main_frame)
         self.draw_random_button: DrawRandomButton = DrawRandomButton(
-            self.button_frame, self.graph_frame)
+            self.button_frame, self.graph_frame, self)
+        self.learn_button = LearnButton(
+            self.button_frame, self.draw_random_button)
+        self.epoch_label = EpochLabel(self.button_frame)

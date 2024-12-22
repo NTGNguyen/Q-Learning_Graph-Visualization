@@ -28,7 +28,7 @@ class GraphRandomGenerate:
         self.edge_collection: plt.Collection
         self.canvas: Any
 
-    def change_node_color(self, node_number: int) -> None:
+    def change_node_color(self, node_number: int, new_color: str) -> None:
         """Change node color with specific number of node
 
         Args:
@@ -37,11 +37,11 @@ class GraphRandomGenerate:
         if not self.G:
             return
         node_id = list(self.G.nodes)[node_number]
-        self.node_colors[node_number] = "red"
+        self.node_colors[node_number] = new_color
         self.node_collection.set_facecolor(self.node_colors)
         self.canvas.draw_idle()
 
-    def change_edge_color(self, first_node_number: int, second_node_number: int) -> None:
+    def change_edge_color(self, first_node_number: int, second_node_number: int, new_color: str) -> None:
         """Change edge color with specific number of two nodes in connection
 
         Args:
@@ -50,6 +50,6 @@ class GraphRandomGenerate:
         """
         edge_index = list(self.G.edges).index((first_node_number, second_node_number)if (
             first_node_number, second_node_number) in self.G.edges else (second_node_number, first_node_number))
-        self.edge_colors[edge_index] = "red"
+        self.edge_colors[edge_index] = new_color
         self.edge_collection.set_edgecolor(self.edge_colors)
         self.canvas.draw_idle()
