@@ -2,8 +2,10 @@
 
 from tkinter import LEFT, ttk
 from typing import TYPE_CHECKING
+
 if TYPE_CHECKING:
     from .frame import ButtonFrame
+
 import time
 
 
