@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-from .graph import GraphRandomGenerate
 from ..Q_Learning import QLearningNX
+from .graph import GraphRandomGenerate
 
 if TYPE_CHECKING:
     from .frame import ButtonFrame, GraphFrame

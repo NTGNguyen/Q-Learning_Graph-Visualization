@@ -1,10 +1,12 @@
 """Q-Learning with networkx"""
+import random
+import time
 from typing import TYPE_CHECKING
+
 import networkx as nx
 import numpy as np
-import random
 from numpy import matrix
-import time
+
 if TYPE_CHECKING:
     from ..Graph import MainWindow
 
