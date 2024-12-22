@@ -5,7 +5,6 @@ import networkx as nx
 import numpy as np
 from numpy import matrix
 
-from src.Q_Learning.q_learning_networkx import QLearningNX
 
 if TYPE_CHECKING:
     from ..Graph import MainWindow
