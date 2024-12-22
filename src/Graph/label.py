@@ -6,8 +6,6 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from .frame import ButtonFrame
 
-import time
-
 
 class EpochLabel(ttk.Label):
     """The EpochLabel inherits from ttk.Label"""

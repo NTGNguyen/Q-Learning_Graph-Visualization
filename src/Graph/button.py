@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-from ..Q_Learning import QLearningNX
+from ..Q_Learning import QLearningNX, QLearningNXv2
 from .graph import GraphRandomGenerate
 
 if TYPE_CHECKING:
@@ -35,7 +35,7 @@ class DrawRandomButton(ttk.Button):
         for widget in self.graph_frame.winfo_children():
             widget.destroy()
         self.Gr = GraphRandomGenerate()
-        self.q_learning = QLearningNX(self.window, self.Gr.G, 9)
+        self.q_learning = QLearningNXv2(self.window, self.Gr.G, 9)
         fig, ax = plt.subplots(figsize=(5, 4))
         nx.draw(self.Gr.G, self.Gr.pos, ax=ax, with_labels=True, node_color=self.Gr.node_colors,
                 edge_color=self.Gr.edge_colors, node_size=500, font_size=10)
