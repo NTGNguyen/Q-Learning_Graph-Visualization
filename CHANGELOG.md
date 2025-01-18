@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v1.1.0 (2025-01-18)
+
+### Chores
+
+- Add notes
+  ([`e78c6ae`](https://github.com/NTGNguyen/Q-Learning_Graph-Visualization/commit/e78c6ae7a920f032395f1d5082929d8165ed652c))
+
+### Features
+
+- Add test
+  ([`e9c2451`](https://github.com/NTGNguyen/Q-Learning_Graph-Visualization/commit/e9c2451d1f1805ec5ba7889c2b08e2f1292a48b0))
+
+
 ## v1.0.0 (2025-01-18)
 
 ### Chores
