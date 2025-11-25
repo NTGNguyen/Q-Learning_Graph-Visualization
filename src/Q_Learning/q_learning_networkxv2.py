@@ -5,7 +5,6 @@ import networkx as nx
 import numpy as np
 from numpy import matrix
 
-
 if TYPE_CHECKING:
     from ..Graph import MainWindow
 
