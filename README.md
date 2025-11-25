@@ -60,7 +60,7 @@ A repo using to visualize <strong>Q-Learning</strong> with tkinter
 
 - Python GUI with tkinter để visualization thuật toán <strong>Q-Learning</strong>
 
-## 🧮 Thuật Toán
+## 🧮 Thuật  Toán
 
 - Bạn có thể đọc về thuật toán bằng cách đọc trên mạng 
   - [G4G](https://www.geeksforgeeks.org/q-learning-in-python/)
