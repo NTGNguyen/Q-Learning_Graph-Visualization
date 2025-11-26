@@ -64,4 +64,3 @@ A repo using to visualize <strong>Q-Learning</strong> with tkinter
 
 - Bạn có thể đọc về thuật toán bằng cách đọc trên mạng 
   - [G4G](https://www.geeksforgeeks.org/q-learning-in-python/)
-
